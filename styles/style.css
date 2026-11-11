@@ -81,14 +81,14 @@ ol {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: 26px;
+  gap: 32px;
   align-self: stretch;
 }
 
 .result__video-container {
-  max-width: 711px;
-  height: 386px;
-  margin-bottom: 16px;
+  width: 726px;
+  height: 394px;
+  margin-bottom: 20px;
 }
 
 .result__video {
@@ -111,7 +111,7 @@ ol {
 
 .content__video-card-thumbnail {
   min-width: 194px;
-  height: 103px;
+  height: 100px;
   object-fit: cover;
   object-position: center;
 }
@@ -157,6 +157,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap; 
+  margin-bottom: 7px;
 }
 
 .content__video-card-description {
@@ -183,6 +184,9 @@ ol {
 }
 
 .search-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   border: none;
 }
 
@@ -207,6 +211,7 @@ ol {
   background-color: #1b1919;
   cursor: pointer;
   appearance: none;
+  width: 225px;
 }
 
 .search-form__textfield::placeholder {
@@ -265,6 +270,7 @@ ol {
 .more-button {
   width: 100%;
   min-height: 34px;
+  padding: 4px 8px 4px 4px;
 }
 
 .button:active {
